@@ -17,10 +17,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Desk::factory(50)->create();
-        DeskList::factory(50)->create();
+        Desk::factory(5)->create();
+        DeskList::factory(20)->create();
         Card::factory(50)->create();
-        Task::factory(50)->create();
+        Task::factory(100)->create();
 
 
         // \App\Models\User::factory(10)->create();

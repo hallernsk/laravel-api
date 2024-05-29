@@ -4,13 +4,13 @@
 
 ### Проверка в Postman:
 
-- GET http://127.0.0.1:8000/api/desks (index)
+- GET {{base_uri}}/api/desks (index)
 
-- GET http://127.0.0.1:8000/api/desks/1 (show)
+- GET {{base_uri}}/api/desks/1 (show)
 
-- POST http://127.0.0.1:8000/api/desks (store)
+- POST {{base_uri}}/api/desks (store)
 
-- PUT http://127.0.0.1:8000/api/desks (update)
+- PUT {{base_uri}}/api/desks (update)
 
-- DELETE http://127.0.0.1:8000/api/desks/2 (destroy) 
+- DELETE {{base_uri}}/api/desks/2 (destroy) 
 
